@@ -1,0 +1,408 @@
+1676326295653	geckodriver	INFO	Listening on 127.0.0.1:58008
+1676326295947	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "--marionette" "--remote-debugging-port" "58009" "--r ... s" "localhost" "-foreground" "-no-remote" "-profile" "/var/folders/p5/cwxqvjnj683_4_6z6gt78f940000gn/T/rust_mozprofileC158uT"
+1676326296681	Marionette	INFO	Marionette enabled
+1676326297003	Marionette	INFO	Listening on port 58022
+Read port: 58022
+WebDriver BiDi listening on ws://127.0.0.1:58009
+1676326297198	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /var/folders/p5/cwxqvjnj683_4_6z6gt78f940000gn/T/rust_mozprofileC158uT/search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:58009/devtools/browser/12c2e9a8-5326-476f-89c0-af1546c0cc74
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.google.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.google.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.google.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.google.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.google.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.google.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.google.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.google.com."
+console.error: (new TypeError("lazy.AsyncShutdown.profileBeforeChange is undefined", "resource://services-settings/Database.jsm", 510))
+1676327511961	geckodriver	INFO	Listening on 127.0.0.1:58411
+1676327512482	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "--marionette" "--remote-debugging-port" "58412" "--r ... s" "localhost" "-foreground" "-no-remote" "-profile" "/var/folders/p5/cwxqvjnj683_4_6z6gt78f940000gn/T/rust_mozprofileC3gQLk"
+1676327513099	Marionette	INFO	Marionette enabled
+1676327513236	Marionette	INFO	Listening on port 58419
+Read port: 58419
+WebDriver BiDi listening on ws://127.0.0.1:58412
+1676327513538	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /var/folders/p5/cwxqvjnj683_4_6z6gt78f940000gn/T/rust_mozprofileC3gQLk/search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:58412/devtools/browser/f9dad457-fed6-4d0a-af62-61c1e309cd97
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.google.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.google.com."
+1676327553316	Marionette	WARN	Ignoring event 'DOMContentLoaded' because document has an invalid readyState of 'complete'.
+console.error: (new TypeError("lazy.AsyncShutdown.profileBeforeChange is undefined", "resource://services-settings/Database.jsm", 510))
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.google.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.google.com."
+1676328439928	Marionette	INFO	Stopped listening on port 58419
+console.warn: TopSitesFeed: Failed to fetch data from Contile server: NetworkError when attempting to fetch resource.
+1676328441928	Marionette	INFO	Stopped listening on port 58022
+1676328447503	geckodriver	INFO	Listening on 127.0.0.1:58767
+1676328448021	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "--marionette" "--remote-debugging-port" "58768" "--r ... s" "localhost" "-foreground" "-no-remote" "-profile" "/var/folders/p5/cwxqvjnj683_4_6z6gt78f940000gn/T/rust_mozprofileNbMwIP"
+1676328448648	Marionette	INFO	Marionette enabled
+1676328448784	Marionette	INFO	Listening on port 58775
+Read port: 58775
+WebDriver BiDi listening on ws://127.0.0.1:58768
+1676328449071	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /var/folders/p5/cwxqvjnj683_4_6z6gt78f940000gn/T/rust_mozprofileNbMwIP/search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:58768/devtools/browser/516c91e6-85a5-4df2-b1db-53bdec8ed55c
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.google.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.google.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.google.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.google.com."
+Handler function threw an exception: TypeError: browsingContext.currentWindowGlobal is null
+Stack: isChannelFromSystemPrincipal@resource://devtools/shared/network-observer/NetworkUtils.sys.mjs:91:1
+createNetworkEvent@resource://devtools/shared/network-observer/NetworkUtils.sys.mjs:179:33
+#createNetworkEvent@resource://devtools/shared/network-observer/NetworkObserver.sys.mjs:712:37
+#onRequestHeader@resource://devtools/shared/network-observer/NetworkObserver.sys.mjs:762:29
+@resource://devtools/shared/network-observer/NetworkObserver.sys.mjs:632:28
+makeInfallible/<@resource://devtools/shared/DevToolsInfaillibleUtils.sys.mjs:43:22
+Line: 91, column: 1
+console.error: (new TypeError("browsingContext.currentWindowGlobal is null", "resource://devtools/shared/network-observer/NetworkUtils.sys.mjs", 91))
+Handler function threw an exception: TypeError: httpActivity.owner is null
+Stack: #onResponseHeader@resource://devtools/shared/network-observer/NetworkObserver.sys.mjs:1046:5
+#dispatchActivity@resource://devtools/shared/network-observer/NetworkObserver.sys.mjs:553:31
+@resource://devtools/shared/network-observer/NetworkObserver.sys.mjs:662:29
+makeInfallible/<@resource://devtools/shared/DevToolsInfaillibleUtils.sys.mjs:43:22
+Line: 1046, column: 5
+console.error: (new TypeError("httpActivity.owner is null", "resource://devtools/shared/network-observer/NetworkObserver.sys.mjs", 1046))
+Handler function threw an exception: TypeError: browsingContext.currentWindowGlobal is null
+Stack: isChannelFromSystemPrincipal@resource://devtools/shared/network-observer/NetworkUtils.sys.mjs:91:1
+createNetworkEvent@resource://devtools/shared/network-observer/NetworkUtils.sys.mjs:179:33
+#createNetworkEvent@resource://devtools/shared/network-observer/NetworkObserver.sys.mjs:712:37
+@resource://devtools/shared/network-observer/NetworkObserver.sys.mjs:343:35
+makeInfallible/<@resource://devtools/shared/DevToolsInfaillibleUtils.sys.mjs:43:22
+Line: 91, column: 1
+console.error: (new TypeError("browsingContext.currentWindowGlobal is null", "resource://devtools/shared/network-observer/NetworkUtils.sys.mjs", 91))
+Handler function threw an exception: [Exception... "Component returned failure code: 0x80040111 (NS_ERROR_NOT_AVAILABLE) [nsIHttpChannelInternal.remoteAddress]"  nsresult: "0x80040111 (NS_ERROR_NOT_AVAILABLE)"  location: "JS frame :: resource://devtools/shared/network-observer/NetworkObserver.sys.mjs :: #onResponseHeader :: line 1013"  data: no]
+Stack: #onResponseHeader@resource://devtools/shared/network-observer/NetworkObserver.sys.mjs:1013:5
+#dispatchActivity@resource://devtools/shared/network-observer/NetworkObserver.sys.mjs:553:31
+@resource://devtools/shared/network-observer/NetworkObserver.sys.mjs:662:29
+makeInfallible/<@resource://devtools/shared/DevToolsInfaillibleUtils.sys.mjs:43:22
+Line: 1013, column: 0
+console.error: ({})
+Handler function threw an exception: [Exception... "Component returned failure code: 0x80040111 (NS_ERROR_NOT_AVAILABLE) [nsIHttpChannelInternal.remoteAddress]"  nsresult: "0x80040111 (NS_ERROR_NOT_AVAILABLE)"  location: "JS frame :: resource://devtools/shared/network-observer/NetworkObserver.sys.mjs :: #onResponseHeader :: line 1013"  data: no]
+Stack: #onResponseHeader@resource://devtools/shared/network-observer/NetworkObserver.sys.mjs:1013:5
+#dispatchActivity@resource://devtools/shared/network-observer/NetworkObserver.sys.mjs:553:31
+@resource://devtools/shared/network-observer/NetworkObserver.sys.mjs:662:29
+makeInfallible/<@resource://devtools/shared/DevToolsInfaillibleUtils.sys.mjs:43:22
+Line: 1013, column: 0
+console.error: ({})
+console.warn: "Listener for event 'frame' did not return a promise."
+console.warn: "Listener for event 'frame' did not return a promise."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.google.com."
+console.error: "Unable to find target with innerWindowId:25769803777"
+console.warn: "Listener for event 'frame' did not return a promise."
+console.warn: "Listener for event 'frame' did not return a promise."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.google.com."
+console.error: "Unable to find target with innerWindowId:32212254721"
+console.warn: "Listener for event 'frame' did not return a promise."
+console.warn: "Listener for event 'frame' did not return a promise."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.google.com."
+console.error: "Unable to find target with innerWindowId:38654705665"
+console.warn: "Listener for event 'frame' did not return a promise."
+JavaScript error: , line 0: NotFoundError: No such JSWindowActor 'DevToolsFrame'
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.google.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.google.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.google.com."
+1676329652468	Marionette	WARN	Ignoring event 'DOMContentLoaded' because document has an invalid readyState of 'complete'.
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.google.com."
+JavaScript error: , line 0: NotFoundError: No such JSWindowActor 'DevToolsFrame'
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.google.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.google.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.google.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.google.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.google.com."
+console.error: "Unable to find target with innerWindowId:51539607573"
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.google.com."
+console.error: "Unable to find target with innerWindowId:51539607574"
+console.error: "Unable to find target with innerWindowId:51539607575"
+Handler function threw an exception: TypeError: browsingContext.currentWindowGlobal is null
+Stack: isChannelFromSystemPrincipal@resource://devtools/shared/network-observer/NetworkUtils.sys.mjs:91:1
+createNetworkEvent@resource://devtools/shared/network-observer/NetworkUtils.sys.mjs:179:33
+#createNetworkEvent@resource://devtools/shared/network-observer/NetworkObserver.sys.mjs:712:37
+#onRequestHeader@resource://devtools/shared/network-observer/NetworkObserver.sys.mjs:762:29
+@resource://devtools/shared/network-observer/NetworkObserver.sys.mjs:632:28
+makeInfallible/<@resource://devtools/shared/DevToolsInfaillibleUtils.sys.mjs:43:22
+Line: 91, column: 1
+console.error: (new TypeError("browsingContext.currentWindowGlobal is null", "resource://devtools/shared/network-observer/NetworkUtils.sys.mjs", 91))
+Handler function threw an exception: TypeError: httpActivity.owner is null
+Stack: #onResponseHeader@resource://devtools/shared/network-observer/NetworkObserver.sys.mjs:1046:5
+#dispatchActivity@resource://devtools/shared/network-observer/NetworkObserver.sys.mjs:553:31
+@resource://devtools/shared/network-observer/NetworkObserver.sys.mjs:662:29
+makeInfallible/<@resource://devtools/shared/DevToolsInfaillibleUtils.sys.mjs:43:22
+Line: 1046, column: 5
+console.error: (new TypeError("httpActivity.owner is null", "resource://devtools/shared/network-observer/NetworkObserver.sys.mjs", 1046))
+Handler function threw an exception: TypeError: browsingContext.currentWindowGlobal is null
+Stack: isChannelFromSystemPrincipal@resource://devtools/shared/network-observer/NetworkUtils.sys.mjs:91:1
+createNetworkEvent@resource://devtools/shared/network-observer/NetworkUtils.sys.mjs:179:33
+#createNetworkEvent@resource://devtools/shared/network-observer/NetworkObserver.sys.mjs:712:37
+@resource://devtools/shared/network-observer/NetworkObserver.sys.mjs:343:35
+makeInfallible/<@resource://devtools/shared/DevToolsInfaillibleUtils.sys.mjs:43:22
+Line: 91, column: 1
+console.error: (new TypeError("browsingContext.currentWindowGlobal is null", "resource://devtools/shared/network-observer/NetworkUtils.sys.mjs", 91))
+JavaScript error: resource://devtools/client/shared/worker-utils.js, line 91: Error: Line numbers must be >= 1
+JavaScript error: resource://devtools/client/shared/worker-utils.js, line 91: Error: Line numbers must be >= 1
+JavaScript error: resource://devtools/client/shared/worker-utils.js, line 91: Error: Line numbers must be >= 1
+JavaScript error: resource://devtools/client/shared/worker-utils.js, line 91: Error: Line numbers must be >= 1
+JavaScript error: resource://devtools/client/shared/worker-utils.js, line 91: Error: Line numbers must be >= 1
+JavaScript error: resource://devtools/client/shared/worker-utils.js, line 91: Error: Line numbers must be >= 1
+JavaScript error: resource://devtools/client/shared/worker-utils.js, line 91: Error: Line numbers must be >= 1
+console.warn: "Listener for event 'frame' did not return a promise."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.google.com."
+console.error: "Unable to find target with innerWindowId:55834574849"
+console.error: "Unable to find target with innerWindowId:55834574849"
+1676333254929	Marionette	WARN	Ignoring event 'DOMContentLoaded' because document has an invalid readyState of 'complete'.
+console.warn: "Listener for event 'frame' did not return a promise."
+console.error: "Unable to find target with innerWindowId:55834574850"
+JavaScript error: resource://devtools/client/shared/worker-utils.js, line 91: Error: Line numbers must be >= 1
+JavaScript error: resource://devtools/client/shared/worker-utils.js, line 91: Error: Line numbers must be >= 1
+JavaScript error: resource://devtools/client/shared/worker-utils.js, line 91: Error: Line numbers must be >= 1
+JavaScript error: resource://devtools/client/shared/worker-utils.js, line 91: Error: Line numbers must be >= 1
+JavaScript error: resource://devtools/client/shared/worker-utils.js, line 91: Error: Line numbers must be >= 1
+JavaScript error: resource://devtools/client/shared/worker-utils.js, line 91: Error: Line numbers must be >= 1
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.google.com."
+JavaScript error: resource://devtools/client/shared/worker-utils.js, line 91: Error: Line numbers must be >= 1
+JavaScript error: resource://devtools/client/shared/worker-utils.js, line 91: Error: Line numbers must be >= 1
+JavaScript error: resource://devtools/client/shared/worker-utils.js, line 91: Error: Line numbers must be >= 1
+JavaScript error: resource://devtools/client/shared/worker-utils.js, line 91: Error: Line numbers must be >= 1
+JavaScript error: resource://devtools/client/shared/worker-utils.js, line 91: Error: Line numbers must be >= 1
+JavaScript error: resource://devtools/client/shared/worker-utils.js, line 91: Error: Line numbers must be >= 1
+console.warn: "Listener for event 'frame' did not return a promise."
+JavaScript error: resource://devtools/client/shared/worker-utils.js, line 91: Error: Line numbers must be >= 1
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.google.com."
+console.error: "Unable to find target with innerWindowId:64424509441"
+console.error: (new TypeError("currentNode is null", "resource://devtools/client/inspector/shared/style-change-tracker.js", 66))
+TypeError: currentNode is null: canMutationImpactCurrentStyles@resource://devtools/client/inspector/shared/style-change-tracker.js:66:20
+onMutations@resource://devtools/client/inspector/shared/style-change-tracker.js:84:41
+_emit@resource://devtools/shared/event-emitter.js:242:32
+emit@resource://devtools/shared/event-emitter.js:186:18
+emit@resource://devtools/shared/event-emitter.js:330:18
+getMutations@resource://devtools/client/fronts/walker.js:313:10
+
+console.error: "Unable to find target with innerWindowId:64424509442"
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.google.com."
+console.error: "Unable to find target with innerWindowId:64424509444"
+console.error: "Unable to find target with innerWindowId:64424509444"
+console.error: "Unable to find target with innerWindowId:64424509444"
+console.warn: "Listener for event 'frame' did not return a promise."
+console.error: "Failed to start [root-node] legacy listener for target null" (new Error("Connection closed, pending request to server0.conn0.windowGlobal64424509447/domwalker21, type watchRootNode failed\n\nRequest stack:\nrequest@resource://devtools/shared/protocol/Front.js:300:14\ngenerateRequestMethods/</frontProto[name]@resource://devtools/shared/protocol/Front/FrontClassWithSpec.js:47:19\nmodule.exports@resource://devtools/shared/commands/resource/legacy-listeners/root-node.js:60:31\n", "resource://devtools/shared/protocol/Front.js", 106))
+console.error: "Unable to find target with innerWindowId:64424509445"
+console.error: "Unable to find target with innerWindowId:64424509445"
+1676333882402	geckodriver	INFO	Listening on 127.0.0.1:54120
+1676333882926	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "--marionette" "--remote-debugging-port" "54121" "--r ... s" "localhost" "-foreground" "-no-remote" "-profile" "/var/folders/p5/cwxqvjnj683_4_6z6gt78f940000gn/T/rust_mozprofilewQREyi"
+1676333883860	Marionette	INFO	Marionette enabled
+1676333884198	Marionette	INFO	Listening on port 54140
+Read port: 54140
+WebDriver BiDi listening on ws://127.0.0.1:54121
+1676333884448	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /var/folders/p5/cwxqvjnj683_4_6z6gt78f940000gn/T/rust_mozprofilewQREyi/search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:54121/devtools/browser/3bf2b25e-031e-4ce5-926e-8f0d24c10b5d
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.google.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.google.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.google.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.google.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.google.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.google.com."
+1676334570498	geckodriver	INFO	Listening on 127.0.0.1:57157
+1676334571020	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "--marionette" "--remote-debugging-port" "57158" "--r ... s" "localhost" "-foreground" "-no-remote" "-profile" "/var/folders/p5/cwxqvjnj683_4_6z6gt78f940000gn/T/rust_mozprofileJPFzm6"
+1676334571887	Marionette	INFO	Marionette enabled
+1676334572222	Marionette	INFO	Listening on port 57173
+Read port: 57173
+WebDriver BiDi listening on ws://127.0.0.1:57158
+1676334572477	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /var/folders/p5/cwxqvjnj683_4_6z6gt78f940000gn/T/rust_mozprofileJPFzm6/search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:57158/devtools/browser/f856837c-a5ce-452f-98d9-bf6d8a14421d
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.google.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.google.com."
+console.error: (new TypeError("lazy.AsyncShutdown.profileBeforeChange is undefined", "resource://services-settings/Database.jsm", 510))
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.google.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.google.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.google.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.google.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.google.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.google.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.google.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.google.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.google.com."
+1676335143523	Marionette	WARN	Ignoring event 'DOMContentLoaded' because document has an invalid readyState of 'complete'.
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.google.com."
+1676335175030	Marionette	WARN	Ignoring event 'DOMContentLoaded' because document has an invalid readyState of 'complete'.
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.google.com."
+1676337257856	Marionette	INFO	Stopped listening on port 57173
+1676337262515	Marionette	INFO	Stopped listening on port 54140
+1676337265139	Marionette	INFO	Stopped listening on port 58775
+JavaScript error: , line 0: NotFoundError: No such JSWindowActor 'DevToolsFrame'
+1676351186081	geckodriver	INFO	Listening on 127.0.0.1:64756
+1676351186596	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "--marionette" "--remote-debugging-port" "64757" "--r ... s" "localhost" "-foreground" "-no-remote" "-profile" "/var/folders/p5/cwxqvjnj683_4_6z6gt78f940000gn/T/rust_mozprofileRXSlK0"
+1676351187497	Marionette	INFO	Marionette enabled
+1676351187889	Marionette	INFO	Listening on port 64778
+Read port: 64778
+WebDriver BiDi listening on ws://127.0.0.1:64757
+1676351188132	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /var/folders/p5/cwxqvjnj683_4_6z6gt78f940000gn/T/rust_mozprofileRXSlK0/search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:64757/devtools/browser/4a0e9f15-1544-4f17-b736-c31921907dcd
+console.error: Region.sys.mjs: "Error fetching region" (new Error("TIMEOUT", "resource://gre/modules/Region.sys.mjs", 764))
+console.error: Region.sys.mjs: "Failed to fetch region" (new Error("TIMEOUT", "resource://gre/modules/Region.sys.mjs", 416))
+console.error: (new TypeError("NetworkError: Network request failed", "resource://services-settings/Utils.jsm", 230))
+1676351224458	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'uninitialized'.
+1676351254152	geckodriver	INFO	Listening on 127.0.0.1:65081
+1676351254675	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "--marionette" "--remote-debugging-port" "65082" "--r ... s" "localhost" "-foreground" "-no-remote" "-profile" "/var/folders/p5/cwxqvjnj683_4_6z6gt78f940000gn/T/rust_mozprofileQmIW2V"
+1676351255414	Marionette	INFO	Marionette enabled
+1676351255817	Marionette	INFO	Listening on port 65097
+Read port: 65097
+WebDriver BiDi listening on ws://127.0.0.1:65082
+1676351256056	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /var/folders/p5/cwxqvjnj683_4_6z6gt78f940000gn/T/rust_mozprofileQmIW2V/search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:65082/devtools/browser/062b5d0f-4724-4cd1-ae19-af9cce332776
+console.error: (new TypeError("NetworkError: Network request failed", "resource://services-settings/Utils.jsm", 230))
+console.error: Region.sys.mjs: "Error fetching region" (new Error("TIMEOUT", "resource://gre/modules/Region.sys.mjs", 764))
+console.error: Region.sys.mjs: "Failed to fetch region" (new Error("TIMEOUT", "resource://gre/modules/Region.sys.mjs", 416))
+1676351512854	Marionette	INFO	Stopped listening on port 64778
+console.warn: TopSitesFeed: Failed to fetch data from Contile server: NetworkError when attempting to fetch resource.
+1676351516947	Marionette	INFO	Stopped listening on port 65097
+1676351540814	geckodriver	INFO	Listening on 127.0.0.1:50104
+1676351541338	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "--marionette" "--remote-debugging-port" "50105" "--r ... s" "localhost" "-foreground" "-no-remote" "-profile" "/var/folders/p5/cwxqvjnj683_4_6z6gt78f940000gn/T/rust_mozprofile6DQ98g"
+1676351542170	Marionette	INFO	Marionette enabled
+1676351542557	Marionette	INFO	Listening on port 50123
+Read port: 50123
+WebDriver BiDi listening on ws://127.0.0.1:50105
+1676351542827	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /var/folders/p5/cwxqvjnj683_4_6z6gt78f940000gn/T/rust_mozprofile6DQ98g/search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:50105/devtools/browser/ea6ad0e8-f987-4159-b3a3-f8e17b2236c3
+console.error: (new TypeError("NetworkError: Network request failed", "resource://services-settings/Utils.jsm", 230))
+console.error: Region.sys.mjs: "Error fetching region" (new Error("TIMEOUT", "resource://gre/modules/Region.sys.mjs", 764))
+console.error: Region.sys.mjs: "Failed to fetch region" (new Error("TIMEOUT", "resource://gre/modules/Region.sys.mjs", 416))
+1676351580771	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'uninitialized'.
+1676352011190	Marionette	INFO	Stopped listening on port 50123
+console.warn: TopSitesFeed: Failed to fetch data from Contile server: NetworkError when attempting to fetch resource.
+1676352203929	geckodriver	INFO	Listening on 127.0.0.1:53058
+1676352204473	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "--marionette" "--remote-debugging-port" "53059" "--r ... s" "localhost" "-foreground" "-no-remote" "-profile" "/var/folders/p5/cwxqvjnj683_4_6z6gt78f940000gn/T/rust_mozprofilek9f6Bi"
+1676352205779	Marionette	INFO	Marionette enabled
+1676352206057	Marionette	INFO	Listening on port 53078
+Read port: 53078
+WebDriver BiDi listening on ws://127.0.0.1:53059
+1676352206289	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /var/folders/p5/cwxqvjnj683_4_6z6gt78f940000gn/T/rust_mozprofilek9f6Bi/search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:53059/devtools/browser/364ca5ca-468e-4854-9b27-37c54cc4a349
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.google.com."
+1676352210597	Marionette	WARN	Ignoring event 'DOMContentLoaded' because document has an invalid readyState of 'complete'.
+1676352561132	geckodriver	INFO	Listening on 127.0.0.1:54602
+1676352561650	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "--marionette" "--remote-debugging-port" "54603" "--r ... s" "localhost" "-foreground" "-no-remote" "-profile" "/var/folders/p5/cwxqvjnj683_4_6z6gt78f940000gn/T/rust_mozprofilexIVw19"
+1676352562730	Marionette	INFO	Marionette enabled
+1676352563173	Marionette	INFO	Listening on port 54623
+Read port: 54623
+WebDriver BiDi listening on ws://127.0.0.1:54603
+1676352563528	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /var/folders/p5/cwxqvjnj683_4_6z6gt78f940000gn/T/rust_mozprofilexIVw19/search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:54603/devtools/browser/8edb233e-4230-45fe-9d1d-55aef0ba1c78
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.google.com."
+1676352567713	Marionette	WARN	Ignoring event 'DOMContentLoaded' because document has an invalid readyState of 'complete'.
+1676352585335	geckodriver	INFO	Listening on 127.0.0.1:54779
+1676352585858	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "--marionette" "--remote-debugging-port" "54780" "--r ... s" "localhost" "-foreground" "-no-remote" "-profile" "/var/folders/p5/cwxqvjnj683_4_6z6gt78f940000gn/T/rust_mozprofilecpl1V0"
+1676352586596	Marionette	INFO	Marionette enabled
+1676352587020	Marionette	INFO	Listening on port 54795
+Read port: 54795
+WebDriver BiDi listening on ws://127.0.0.1:54780
+1676352587286	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /var/folders/p5/cwxqvjnj683_4_6z6gt78f940000gn/T/rust_mozprofilecpl1V0/search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:54780/devtools/browser/fc41e88c-4abe-433c-8574-c88eb5ea2876
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.google.com."
+1676352591197	Marionette	WARN	Ignoring event 'DOMContentLoaded' because document has an invalid readyState of 'complete'.
+1676352766534	geckodriver	INFO	Listening on 127.0.0.1:55640
+1676352767053	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "--marionette" "--remote-debugging-port" "55641" "--r ... s" "localhost" "-foreground" "-no-remote" "-profile" "/var/folders/p5/cwxqvjnj683_4_6z6gt78f940000gn/T/rust_mozprofileoReBx6"
+1676352768187	Marionette	INFO	Marionette enabled
+1676352768532	Marionette	INFO	Listening on port 55660
+Read port: 55660
+WebDriver BiDi listening on ws://127.0.0.1:55641
+1676352768824	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /var/folders/p5/cwxqvjnj683_4_6z6gt78f940000gn/T/rust_mozprofileoReBx6/search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:55641/devtools/browser/e8834c3e-286a-44e0-ab3d-f2474474de7a
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.google.com."
+1676353119154	geckodriver	INFO	Listening on 127.0.0.1:56743
+1676353119650	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "--marionette" "--remote-debugging-port" "56744" "--r ... s" "localhost" "-foreground" "-no-remote" "-profile" "/var/folders/p5/cwxqvjnj683_4_6z6gt78f940000gn/T/rust_mozprofilesO83Do"
+1676353121149	Marionette	INFO	Marionette enabled
+1676353121846	Marionette	INFO	Listening on port 56776
+Read port: 56776
+WebDriver BiDi listening on ws://127.0.0.1:56744
+1676353122190	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /var/folders/p5/cwxqvjnj683_4_6z6gt78f940000gn/T/rust_mozprofilesO83Do/search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:56744/devtools/browser/1f8257c7-84b6-4825-a839-de657e62584e
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.google.com."
+1676353127107	Marionette	WARN	Ignoring event 'DOMContentLoaded' because document has an invalid readyState of 'complete'.
+console.error: RemoteSecuritySettings.jsm: 
+  Failed to download attachment: TypeError: NetworkError: Network request failed
+console.error: RemoteSecuritySettings.jsm: 
+  Failed to download attachment: TypeError: NetworkError: Network request failed
+console.error: RemoteSecuritySettings.jsm: 
+  Failed to download attachment: TypeError: NetworkError: Network request failed
+console.error: RemoteSecuritySettings.jsm: 
+  Failed to download attachment: TypeError: NetworkError: Network request failed
+console.error: RemoteSecuritySettings.jsm: 
+  Failed to download attachment: TypeError: NetworkError: Network request failed
+console.error: RemoteSecuritySettings.jsm: 
+  Failed to download attachment: TypeError: NetworkError: Network request failed
+console.error: RemoteSecuritySettings.jsm: 
+  Failed to download attachment: TypeError: NetworkError: Network request failed
+console.error: RemoteSecuritySettings.jsm: 
+  Failed to download attachment: TypeError: NetworkError: Network request failed
+1676353166331	geckodriver	INFO	Listening on 127.0.0.1:57027
+1676353166854	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "--marionette" "--remote-debugging-port" "57028" "--r ... s" "localhost" "-foreground" "-no-remote" "-profile" "/var/folders/p5/cwxqvjnj683_4_6z6gt78f940000gn/T/rust_mozprofile7In7Sd"
+1676353167440	Marionette	INFO	Marionette enabled
+1676353167629	Marionette	INFO	Listening on port 57039
+Read port: 57039
+WebDriver BiDi listening on ws://127.0.0.1:57028
+1676353168216	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /var/folders/p5/cwxqvjnj683_4_6z6gt78f940000gn/T/rust_mozprofile7In7Sd/search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:57028/devtools/browser/74195363-f67d-4fe2-b74b-863889a3f9ab
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.google.com."
+1676353172781	Marionette	WARN	Ignoring event 'DOMContentLoaded' because document has an invalid readyState of 'complete'.
+1676353211995	geckodriver	INFO	Listening on 127.0.0.1:57299
+1676353212500	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "--marionette" "--remote-debugging-port" "57300" "--r ... s" "localhost" "-foreground" "-no-remote" "-profile" "/var/folders/p5/cwxqvjnj683_4_6z6gt78f940000gn/T/rust_mozprofileGwxIit"
+1676353213285	Marionette	INFO	Marionette enabled
+1676353213763	Marionette	INFO	Listening on port 57315
+Read port: 57315
+WebDriver BiDi listening on ws://127.0.0.1:57300
+1676353214002	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /var/folders/p5/cwxqvjnj683_4_6z6gt78f940000gn/T/rust_mozprofileGwxIit/search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:57300/devtools/browser/8ca2f644-2662-4bab-9bfe-91dbbb961d27
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.google.com."
+1676353218258	Marionette	WARN	Ignoring event 'DOMContentLoaded' because document has an invalid readyState of 'complete'.
+1676353551626	geckodriver	INFO	Listening on 127.0.0.1:58901
+1676353552138	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "--marionette" "--remote-debugging-port" "58902" "--r ... s" "localhost" "-foreground" "-no-remote" "-profile" "/var/folders/p5/cwxqvjnj683_4_6z6gt78f940000gn/T/rust_mozprofileuQvRk2"
+1676353553317	Marionette	INFO	Marionette enabled
+1676353553765	Marionette	INFO	Listening on port 58926
+Read port: 58926
+WebDriver BiDi listening on ws://127.0.0.1:58902
+1676353554059	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /var/folders/p5/cwxqvjnj683_4_6z6gt78f940000gn/T/rust_mozprofileuQvRk2/search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:58902/devtools/browser/4c3c821a-bb35-469c-9022-a4f40b66df40
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.google.com."
+1676353559169	Marionette	WARN	Ignoring event 'DOMContentLoaded' because document has an invalid readyState of 'complete'.
+1676353561607	Marionette	INFO	Stopped listening on port 58926
+1676353577050	Marionette	INFO	Stopped listening on port 53078
+1676353579258	Marionette	INFO	Stopped listening on port 54623
+1676353581347	Marionette	INFO	Stopped listening on port 54795
+1676353583490	Marionette	INFO	Stopped listening on port 55660
+1676353587571	Marionette	INFO	Stopped listening on port 56776
+1676353589912	Marionette	INFO	Stopped listening on port 57039
+1676353591961	Marionette	INFO	Stopped listening on port 57315
+1676353776931	geckodriver	INFO	Listening on 127.0.0.1:59979
+1676353777450	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "--marionette" "--remote-debugging-port" "59980" "--r ... s" "localhost" "-foreground" "-no-remote" "-profile" "/var/folders/p5/cwxqvjnj683_4_6z6gt78f940000gn/T/rust_mozprofile7Ww4Tx"
+1676353778302	Marionette	INFO	Marionette enabled
+1676353778646	Marionette	INFO	Listening on port 59997
+Read port: 59997
+WebDriver BiDi listening on ws://127.0.0.1:59980
+1676353778888	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /var/folders/p5/cwxqvjnj683_4_6z6gt78f940000gn/T/rust_mozprofile7Ww4Tx/search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:59980/devtools/browser/06058b9f-7970-4af0-b38c-7074bf2bbd30
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.google.com."
+1676353784720	Marionette	INFO	Stopped listening on port 59997
+1676360219540	geckodriver	INFO	Listening on 127.0.0.1:55122
+1676360220059	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "--marionette" "--remote-debugging-port" "55123" "--r ... s" "localhost" "-foreground" "-no-remote" "-profile" "/var/folders/p5/cwxqvjnj683_4_6z6gt78f940000gn/T/rust_mozprofileV82XbT"
+1676360221328	Marionette	INFO	Marionette enabled
+1676360221913	Marionette	INFO	Listening on port 55146
+Read port: 55146
+WebDriver BiDi listening on ws://127.0.0.1:55123
+1676360222227	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /var/folders/p5/cwxqvjnj683_4_6z6gt78f940000gn/T/rust_mozprofileV82XbT/search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:55123/devtools/browser/537f79f6-24c9-4645-9d54-ee4c49dd3073
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.google.com."
+1676360230072	Marionette	INFO	Stopped listening on port 55146
