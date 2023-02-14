@@ -1,0 +1,3 @@
+pip install selenium
+pip install streamlit
+pip install pandas
