@@ -5,8 +5,7 @@ from selenium.webdriver.common.by import By
 from selenium.webdriver.common.keys import Keys
 from selenium.webdriver.firefox.options import Options as FirefoxOptions
 def find_jobs(comp,role) :
-    options = FirefoxOptions()
-    options.headless = True
+    options = FirefoxOptions(-headless = True )
     driver = webdriver.Firefox(options=options)
     driver.get('https://www.google.com/')
     driver.implicitly_wait(30)
@@ -27,7 +26,7 @@ def find_jobs(comp,role) :
         driver.quit()
 
     except:
-        link = 'https://www.indeed.com/jobs?q=' + comp + '+' + key_word
+        link = 'https://www.indeed.com/jobs?q=' + comp + '+' + role
         driver.get(link)
         job_list = driver.find_elements(By.TAG_NAME, "li")
         jobs = []
