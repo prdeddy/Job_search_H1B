@@ -33,7 +33,7 @@ def find_jobs(comp,role) :
         driver.quit()
 
     except:
-        driver.get('https://www.indeed.com/jobs?q=' + comp + '+' + key_word)
+        driver.get('https://www.indeed.com/jobs?q=' + comp + '+' + role)
         job_list = driver.find_elements(By.TAG_NAME, "li")
         jobs = []
         for job in job_list:
