@@ -5,7 +5,8 @@ from selenium.webdriver.common.by import By
 from selenium.webdriver.common.keys import Keys
 from selenium.webdriver.firefox.options import Options as FirefoxOptions
 def find_jobs(comp,role) :
-    options = FirefoxOptions(-headless = True )
+    options = FirefoxOptions()
+    options.add_argument('--headless')
     driver = webdriver.Firefox(options=options)
     driver.get('https://www.google.com/')
     driver.implicitly_wait(30)
