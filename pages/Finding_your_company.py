@@ -14,7 +14,7 @@ def find_jobs(comp,role) :
     options=firefoxOptions,
     service=service,
     driver.get('https://www.google.com/')
-    driver.implicitly_wait(30)
+    driver.implicitly_wait(time_to_wait=30)
     driver.find_element(By.CLASS_NAME, "gLFyf").send_keys(role + " job openings in " + comp + Keys.ENTER)
     try:
         temp = driver.find_element(By.CSS_SELECTOR, 'a[href*=";jobs&"]')
