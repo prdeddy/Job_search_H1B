@@ -4,10 +4,17 @@ from selenium import webdriver
 from selenium.webdriver.common.by import By
 from selenium.webdriver.common.keys import Keys
 from selenium.webdriver.firefox.options import Options as FirefoxOptions
+import os, sys
+
+def installff():
+  os.system('sbase install geckodriver')
+  os.system('ln -s /home/appuser/venv/lib/python3.7/site-packages/seleniumbase/drivers/geckodriver /home/appuser/venv/bin/geckodriver')
+
 def find_jobs(comp,role) :
-    options = FirefoxOptions()
-    options.headless = True
-    driver = webdriver.Firefox(options=options)
+    _ = installff()
+    opts = FirefoxOptions()
+    opts.add_argument("--headless")
+    driver = webdriver.Firefox(options=opts)
     driver.get('https://www.google.com/')
     driver.implicitly_wait(30)
     driver.find_element(By.CLASS_NAME, "gLFyf").send_keys(role + " job openings in " + comp + Keys.ENTER)
