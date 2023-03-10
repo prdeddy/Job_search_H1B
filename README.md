@@ -7,6 +7,7 @@ This is made to help in my job search with limited no of companies sponsoring H1
 ### Download the following files :
 * Home_page.py
 * pages Directory as a whole 
+* h1b_datahubexport-2022.csv
 
 Step 2 : Put home page and the pages directory in a same folder <br />
 step 3 : Make sure python is installed and install all the dependencies in the requirements.txt if not present already <br />
